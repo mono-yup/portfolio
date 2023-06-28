@@ -3,6 +3,34 @@
     padding: 0;
 }
 
+body {
+    background-color: #272727;
+    
+}
+
+.bodyText {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+}
+
+.subHeading {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 12px;
+    color: white;
+}
+
+.bodyLink {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 300;
+    font-size: 12px;
+    text-decoration: underline;
+    color: white;
+}
+
+
 #contact {
     display: flex;
     flex-direction: column;
@@ -22,5 +50,11 @@
 #contactInfo {
     height: 400px;
     display: flex;
-    
+
+}
+
+#apolloPic {
+    height: 210px;
+    width: 225px;
+    border-radius: 130px;
 }
