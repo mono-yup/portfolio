@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
 
 body {
@@ -37,6 +39,7 @@ body {
     justify-content: space-between;
     height: 965px;
     width: 365px;
+    margin: 66px 0px 0px 125px;
 }
 
 #personalInfo {
@@ -44,6 +47,15 @@ body {
     flex-direction: column;
     justify-content: space-around;
     height: 500px;
+}
+
+#contactBtn {
+    width: 125px;
+    height: 29px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 17px;
+
 }
 
 
