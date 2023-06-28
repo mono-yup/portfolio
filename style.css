@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 965px;
+    width: 365px;
+}
+
+#personalInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 500px;
+}
+
+
+#contactInfo {
+    height: 400px;
+    display: flex;
+    
+}
