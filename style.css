@@ -43,6 +43,15 @@ body {
     font-size: 80px;
     color: black;
 }
+.oneLineTextNormal {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    width: 80px;
+    word-wrap: normal;
+    font-size: 80px;
+    color: black;
+    margin: 85px 0px 10px 85px;
+}
 
 
 #contact {
@@ -101,6 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
 }
 
 #portfolio:hover {
@@ -118,6 +128,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: width 2s;
 }
 
 #about:hover {

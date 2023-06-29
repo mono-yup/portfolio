@@ -2,25 +2,19 @@ let portHeader = document.getElementById("portfolioHeader");
 let aboutHeader = document.getElementById("aboutHeader");
 
 document.querySelector("#about").addEventListener("mouseover", () => {
-    aboutHeader.style.wordWrap = "normal";
+    aboutHeader.classList.replace("oneLineText", "oneLineTextNormal");
 
 })
 document.querySelector("#about").addEventListener("mouseout", () => {
-    aboutHeader.style.wordWrap = "break-word";
+    aboutHeader.classList.replace("oneLineTextNormal","oneLineText");
 
 })
 
 document.querySelector("#portfolio").addEventListener("mouseover", () => {
-    portHeader.style.wordWrap = "normal";
+    portHeader.classList.replace("oneLineText", "oneLineTextNormal");
 
 })
 document.querySelector("#portfolio").addEventListener("mouseout", () => {
-    portHeader.style.wordWrap = "break-word";
+    portHeader.classList.replace("oneLineTextNormal","oneLineText");
 
 })
-
-
-function changeToNormal (element) {
-    element.style[overflow-wrap] = "normal";
-
-}
